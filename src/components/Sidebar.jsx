@@ -66,7 +66,7 @@ const Sidebar = () => {
             >
               {routes.map((route, index) => {
                 if (route.subRoutes) {
-                  return <SidebarMenu route={route} key={index} />;
+                  return <SidebarMenu route={route} />;
                 }
 
                 return (
